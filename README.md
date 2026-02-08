@@ -37,7 +37,7 @@
   <p align="center">
     Turns your smartphone into an SMS/MMS gateway for sending and receiving messages via API.
     <br />
-    <em>Fork of <a href="https://github.com/capcom6/android-sms-gateway">capcom6/android-sms-gateway</a> with MMS support, media storage, and UI improvements.</em>
+    <em>Fork of <a href="https://github.com/capcom6/android-sms-gateway">capcom6/android-sms-gateway</a> built for our company after using SMS Gate in production and needing full MMS support, media handling, and improved local workflows.</em>
     <br />
     <strong>Cloud server UI has been removed in this fork (local server mode only).</strong>
     <br />
@@ -78,7 +78,7 @@
 <p align="center"><img src="assets/front-page.jpg" width="360" alt="MessageGate app front page"></p>
 
 
-MessageGate turns your Android smartphone into an SMS gateway. It's a lightweight application that allows you to send SMS messages programmatically via an API or CLI tool and receive webhooks on incoming SMS. This makes it ideal for integrating SMS functionality into your own applications or services.
+MessageGate turns your Android smartphone into an SMS/MMS gateway. This fork started from SMS Gate, which we already used in our company, and extends it with MMS-first functionality required by our real-world workflows. It lets you send SMS and MMS programmatically via API or CLI, store and retrieve media, and receive webhooks for inbound messages.
 
 ### Features
 
@@ -91,6 +91,7 @@ MessageGate turns your Android smartphone into an SMS gateway. It's a lightweigh
 💬 Message Handling:
 
 - 📜 **Multipart messages:** Send long messages with auto-partitioning.
+- 🖼️ **MMS media support:** Send and receive MMS with attachments/media payloads.
 - 📊 **Message status tracking:** Monitor the status of sent messages in real-time.
 - 🔔 **Real-time incoming message notifications:** Receive instant SMS and MMS notifications via webhooks.
 - 📖 **Read received messages:** Access previously received messages via the same webhooks used for real-time notifications.
