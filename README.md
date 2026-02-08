@@ -75,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center"><img src="assets/local-server.png" width="360" alt="MessageGate local server screen"></p>
+<p align="center"><img src="assets/front-page.jpg" width="360" alt="MessageGate app front page"></p>
 
 
 MessageGate turns your Android smartphone into an SMS gateway. It's a lightweight application that allows you to send SMS messages programmatically via an API or CLI tool and receive webhooks on incoming SMS. This makes it ideal for integrating SMS functionality into your own applications or services.
