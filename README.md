@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/stappmus/android-sms-gateway">
-    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="MessageGate logo" width="80" height="80">
   </a>
 
 <h3 align="center">MessageGate for Android™ (Fork)</h3>
@@ -38,6 +38,8 @@
     Turns your smartphone into an SMS/MMS gateway for sending and receiving messages via API.
     <br />
     <em>Fork of <a href="https://github.com/capcom6/android-sms-gateway">capcom6/android-sms-gateway</a> with MMS support, media storage, and UI improvements.</em>
+    <br />
+    <strong>Cloud server UI has been removed in this fork (local server mode only).</strong>
     <br />
     <strong>Local-only SMS/MMS gateway for Android</strong>
     <br />
@@ -73,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center"><img src="assets/screenshot.png" width="360"></p>
+<p align="center"><img src="assets/local-server.png" width="360" alt="MessageGate local server screen"></p>
 
 
 MessageGate turns your Android smartphone into an SMS gateway. It's a lightweight application that allows you to send SMS messages programmatically via an API or CLI tool and receive webhooks on incoming SMS. This makes it ideal for integrating SMS functionality into your own applications or services.
@@ -171,7 +173,7 @@ To use the application, you need to grant the following permissions:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This fork operates in **Local Server mode only** (the upstream cloud server has been removed). The device runs an embedded HTTP server that you interact with via REST API.
+This fork operates in **Local Server mode only**. The upstream cloud server integration and its Cloud Server settings UI were removed from this fork. The device runs an embedded HTTP server that you interact with via REST API.
 
 ### Local Server
 
